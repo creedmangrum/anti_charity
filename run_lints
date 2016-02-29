@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ "$1" == "strict" ]
+then
+    # does not ignore duplicate code; gives lots of false positives in test code
+    export PYLINTRC=strict-pylintrc
+else
+    export PYLINTRC=pylintrc
+fi
+
+echo "Main Code"
+echo "  Add expressions to suppress-unused.txt to suppress 'unused' warnings"
+vulture anti_charity | grep -v -f suppress-unused.txt
+pylint anti_charity && flake8 --max-line-length=120 --ignore=F401 anti_charity
+MAIN_RUN=$?
+
+
+if [ "$MAIN_RUN" -eq "0" ]; then
+    echo "All lints passed"
+    exit 0
+else
+    echo "Main exiting with code $MAIN_RUN"
+    exit $MAIN_RUN
+fi

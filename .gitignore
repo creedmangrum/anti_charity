@@ -1,0 +1,7 @@
+.idea
+*.pyc
+*.iml
+*.noseids
+nosetests.xml
+.coverage
+*.log
