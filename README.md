@@ -5,10 +5,10 @@
 anti_charity is a simple Flask application backed with a PostgreSQL database.  SQLAlchemy is the ORM used with the
 service.  To get up and running, first clone the repo:
 
-    $ git clone git@bitbucket.org:kyruus/anti_charity.git
+    $ git clone git@bitbucket.org:creedmangrum/anti_charity.git
 
 Currently the only requirements to develop locally are python 2.7, PostgreSQL, and virtualenv.  Assuming you have all
-that let's first create your virtualenv ([how to use virtualenvs](https://kyruus.jira.com/wiki/display/eng/Working+with+python+virtualenvs)) and activate it.
+that let's first create your virtualenv
 
     $ virtualenv ~/.virtualenvs/anti_charity --no-site-packages
     $ . ~/.virtualenvs/anti_charity/bin/activate
@@ -21,11 +21,11 @@ You may need to enter the following command if you are running on OSX Mavericks:
 
     $ export ARCHFLAGS="-Wno-error=unused-command-line-argument-hard-error-in-future"
 
-Next we'll need to setup the database.  If you haven't already, create a user with the username 'kyruus' and password
-of 'kyruus123'.  NOTE - The following will create a user with username 'kyruus' and you will be prompted to enter the
+Next we'll need to setup the database.  If you haven't already, create a user with the username 'cmangrum' and password
+of 'cmangrum11'.  NOTE - The following will create a user with username 'cmangrum' and you will be prompted to enter the
 password
 
-    $ createuser -P -s -e kyruus
+    $ createuser -P -s -e cmangrum
 
 Next, you will need to create the dev database and test database, to do so simply run the following command:
 
@@ -35,16 +35,11 @@ Now that you have the database created, you need to apply the migrations which w
 
     $ python manage.py db upgrade
 
-In order to log in using SSO locally, your server must be running on the "kyruus.com". To do this, edit your `/etc/hosts` file and add the following:
-
-    # Localhost alias for SSO
-    127.0.0.1   lcl.kyruus.com
-
 To run the app, simply:
 
     $ python manage.py runserver
 
-The app will be available at `lcl.kyruus.com:5000`
+The app will be available at `localhost:5000`
 
 If you need a shell and have the app initialized simply run:
 
