@@ -1,78 +1,98 @@
-# anti_charity
+## React Starter Kit — "isomorphic" web app boilerplate
 
-## Development
+[![Support us on Bountysource](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/banner.png)](https://salt.bountysource.com/teams/react-starter-kit)<br>
 
-anti_charity is a simple Flask application backed with a PostgreSQL database.  SQLAlchemy is the ORM used with the
-service.  To get up and running, first clone the repo:
+> [React Starter Kit](https://www.reactstarterkit.com) is an opinionated
+> boilerplate for web development built on top of Facebook's
+> [React](https://facebook.github.io/react/) library,
+> [Node.js](https://nodejs.org/) / [Express](http://expressjs.com/) server
+> and [Flux](http://facebook.github.io/flux/) architecture. Containing
+> modern web development tools such as [Webpack](http://webpack.github.io/),
+> [Babel](http://babeljs.io/) and [BrowserSync](http://www.browsersync.io/).
+> Helping you to stay productive following the best practices. A solid starting
+> point for both professionals and newcomers to the industry.
 
-    $ git clone git@bitbucket.org:creedmangrum/anti_charity.git
+See [demo](http://demo.reactstarterkit.com) &nbsp;|&nbsp;
+[docs](https://github.com/kriasoft/react-starter-kit/tree/master/docs) &nbsp;|&nbsp;
+[bugs & feature requests](https://waffle.io/kriasoft/react-starter-kit) &nbsp;|&nbsp;
+join [#react-starter-kit](https://gitter.im/kriasoft/react-starter-kit) chatroom to stay up to date &nbsp;|&nbsp;
+visit our sponsors:
 
-Currently the only requirements to develop locally are python 2.7, PostgreSQL, and virtualenv.  Assuming you have all
-that let's first create your virtualenv
+[![Rollbar - Full-stack error tracking for all apps in any language](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/rollbar.png)](https://rollbar.com/?utm_source=reactstartkit(github)&utm_medium=link&utm_campaign=reactstartkit(github)) &nbsp;&nbsp;
+[![Localize - Translate your web app in minutes](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/localize.png)](https://localizejs.com/?cid=802&utm_source=rsk)
 
-    $ virtualenv ~/.virtualenvs/anti_charity --no-site-packages
-    $ . ~/.virtualenvs/anti_charity/bin/activate
+### Getting Started
 
-Next, install the requirements
+  * Follow the [getting started guide](./docs/getting-started.md) to download and run the project
+  * Check the [code recipes](./docs/recipes) used in this boilerplate, or share yours
 
-    $ pip install -r requirements.txt
+### Directory Layout
 
-You may need to enter the following command if you are running on OSX Mavericks:
+```
+.
+├── /build/                     # The folder for compiled output
+├── /docs/                      # Documentation files for the project
+├── /node_modules/              # 3rd-party libraries and utilities
+├── /src/                       # The source code of the application
+│   ├── /actions/               # Action creators that allow to trigger a dispatch to stores
+│   ├── /components/            # React components
+│   ├── /constants/             # Constants (action types etc.)
+│   ├── /content/               # Static content (plain HTML or Markdown, Jade, you name it)
+│   ├── /core/                  # Core framework and utility functions
+│   ├── /data/                  # GraphQL server schema
+│   ├── /decorators/            # Higher-order React components
+│   ├── /public/                # Static files which are copied into the /build/public folder
+│   ├── /stores/                # Stores contain the application state and logic
+│   ├── /client.js              # Client-side startup script
+│   ├── /config.js              # Global application settings
+│   ├── /routes.js              # Universal (isomorphic) application routes
+│   └── /server.js              # Server-side startup script
+├── /tools/                     # Build automation scripts and utilities
+│   ├── /lib/                   # Library for utility snippets
+│   ├── /build.js               # Builds the project from source to output (build) folder
+│   ├── /bundle.js              # Bundles the web resources into package(s) through Webpack
+│   ├── /clean.js               # Cleans up the output (build) folder
+│   ├── /copy.js                # Copies static files to output (build) folder
+│   ├── /deploy.js              # Deploys your web application
+│   ├── /run.js                 # Helper function for running build automation tasks
+│   ├── /runServer.js           # Launches (or restarts) Node.js server
+│   ├── /start.js               # Launches the development web server with "live reload"
+│   └── /webpack.config.js      # Configurations for client-side and server-side bundles
+│── package.json                # The list of 3rd party libraries and utilities
+└── preprocessor.js             # ES6 transpiler settings for Jest
+```
 
-    $ export ARCHFLAGS="-Wno-error=unused-command-line-argument-hard-error-in-future"
+### Related Projects
 
-Next we'll need to setup the database.  If you haven't already, create a user with the username 'cmangrum' and password
-of 'cmangrum11'.  NOTE - The following will create a user with username 'cmangrum' and you will be prompted to enter the
-password
+  * [Membership Database](https://github.com/membership/membership.db) — SQL schema boilerplate for user accounts, profiles, roles, and auth claims
+  * [React Static Boilerplate](https://github.com/koistya/react-static-boilerplate) — Generates static websites from React components
+  * [Babel Starter Kit](https://github.com/kriasoft/babel-starter-kit) — Boilerplate for authoring JavaScript/React.js libraries
+  * [React Decorators](https://github.com/kriasoft/react-decorators) — A collection of higher-order React components
 
-    $ createuser -P -s -e cmangrum
+### Learn More
 
-Next, you will need to create the dev database and test database, to do so simply run the following command:
+  * [Getting Started with React.js](http://facebook.github.io/react/)
+  * [Getting Started with GraphQL and Relay](https://quip.com/oLxzA1gTsJsE)
+  * [React.js Questions on StackOverflow](http://stackoverflow.com/questions/tagged/reactjs)
+  * [React.js Discussion Board](https://discuss.reactjs.org/)
+  * [Flux Architecture for Building User Interfaces](http://facebook.github.io/flux/)
+  * [Jest - Painless Unit Testing](http://facebook.github.io/jest/)
+  * [Flow - A static type checker for JavaScript](http://flowtype.org/)
+  * [The Future of React](https://github.com/reactjs/react-future)
+  * [Learn ES6](https://babeljs.io/docs/learn-es6/), [ES6 Features](https://github.com/lukehoban/es6features#readme)
 
-    $ python manage.py setup_db
+### Support
 
-Now that you have the database created, you need to apply the migrations which will create the necessary tables, simply run the following. If you just created the project, you will not have any migrations to apply, so skip to the section Database Migrations below:
+  * [#react-starter-kit](https://gitter.im/kriasoft/react-starter-kit) on Gitter — Feedback, feature requests, Q&A
+  * [@koistya](https://www.codementor.io/koistya) on Codementor — Mentorship, pair coding, code reviews
+  * support@kriasoft.com — Customization requests, help with GraphQL/Relay, database design etc.
 
-    $ python manage.py db upgrade
+### License
 
-To run the app, simply:
+Copyright © 2014-2016 Kriasoft, LLC. This source code is licensed under the MIT
+license found in the [LICENSE.txt](https://github.com/kriasoft/react-starter-kit/blob/master/LICENSE.txt)
+file. The documentation to the project is licensed under the
+[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) license.
 
-    $ python manage.py runserver
-
-The app will be available at `localhost:5000`
-
-If you need a shell and have the app initialized simply run:
-
-    $ python manage.py shell
-
-To run the unit tests:
-
-    $ python manage.py test
-
-## Database Migrations
-
-NOTE: Before you can create migrations you have to first initialize alembic, you only have to do this once.  All you
-need to do is run the following:
-
-    $ python manage.py db init
-
-This will setup alembic and create a migrations folder.  Now, when you run migrate a new version will be created under
-migrations/versions
-
-anti_charity uses alembic to manage database migrations.  Alembic will recognize most changes to your models and
-auto generate a migration for that.  As an example, let's say you want to create a new survey.  Simply create your model
-and then run the following command:
-
-    $ python manage.py db migrate
-
-This will generate a migration script and place it in migrations/versions.  Be sure to inspect the migration to insure
-that it's correct, alembic will detect most changes but things like indexes you will need to add manually.  To execute
-the migration and have it reflected in your database run:
-
-    $ python manage.py db upgrade
-
-Now let's say you need to add a column, simply add the column to your model and run migrate again:
-
-    $ python manage.py db migrate
-
-Again, this will create a new migration in migrations/version, and like before, run the upgrade command to execute it.
+---
+Made with ♥ by Konstantin Tarkus ([@koistya](https://twitter.com/koistya)) and [contributors](https://github.com/kriasoft/react-starter-kit/graphs/contributors)
