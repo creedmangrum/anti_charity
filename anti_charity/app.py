@@ -12,10 +12,13 @@ from __future__ import unicode_literals
 from __future__ import print_function
 
 from flask import Flask, jsonify
+from flask_graphql import GraphQL
 
 from anti_charity import settings as config
 from anti_charity.core.models import DB
 from anti_charity.core.utils import InvalidUsage, CustomJSONEncoder
+
+from anti_charity.core.schema import schema, User, AntiCharity, Goal
 
 
 def create_app(config=config.Local):
@@ -23,6 +26,7 @@ def create_app(config=config.Local):
     app.config.from_object(config)
     app.json_encoder = CustomJSONEncoder
     DB.init_app(app)
+    GraphQL(app, schema=schema)
 
 
     register_blueprints(app)
@@ -41,6 +45,10 @@ def create_app(config=config.Local):
         """A handler for any endpoint that raises an InvalidUsage exception"""
         return jsonify(error.to_dict()), error.status_code
 
+    @app.teardown_appcontext
+    def shutdown_session(exception=None):
+        DB.session.remove()
+
     return app
 
 
@@ -52,4 +60,7 @@ def register_blueprints(app):
     from anti_charity.docs.views import mod as docsModule
     app.register_blueprint(docsModule)
     return None
+
+
+
 

@@ -11,7 +11,6 @@ import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './TextBox.scss';
 
-@withStyles(s)
 class TextBox extends Component {
 
   static propTypes = {

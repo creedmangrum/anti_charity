@@ -22,6 +22,8 @@ import schema from './data/schema';
 import Router from './routes';
 import assets from './assets';
 import { port, auth, analytics } from './config';
+import fetch from 'node-fetch';
+
 
 const server = global.server = express();
 
@@ -74,6 +76,20 @@ server.use('/graphql', expressGraphQL(req => ({
   rootValue: { request: req },
   pretty: process.env.NODE_ENV !== 'production',
 })));
+
+
+//
+// Endpoint to talk to localhost:5000
+// -----------------------------------------------------------------------------
+server.get('/flask', async (req, res, next) => {
+  fetch('http://localhost:5000/status')
+    .then(function(res) {
+      return res.json();
+    }).then(function(json) {
+      console.log(json);
+    });
+  res.send('received');
+});
 
 //
 // Register server-side rendering middleware
