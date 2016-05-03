@@ -1,7 +1,9 @@
-.idea
-*.pyc
-*.iml
-*.noseids
-nosetests.xml
-.coverage
-*.log
+node_modules
+anti_charity/static/js/anti_charity.js
+anti_charity/static/js/anti_charity.js.gz
+anti_charity/static/js/anti_charity.js.gz.map
+anti_charity/static/js/anti_charity.js.map
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

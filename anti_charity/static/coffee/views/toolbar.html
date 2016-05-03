@@ -1,0 +1,19 @@
+<div class="row toolbar">
+    <div class="col-md-4 text-center company-name">
+        {{ name }}
+    </div>
+    <div class="col-md-3">
+        Set A Goal
+    </div>
+    <div class="col-md-2">
+        Why AntiCharity?
+    </div>
+    <div class="col-md-3">
+        {{ #if authenticated }}
+            <div class="col-md-12">Profile</div>
+        {{ else }}
+            <div class="col-md-6">Sign Up</div>
+            <div class="col-md-6">Login</div>
+        {{ /if }}
+    </div>
+</div>

@@ -9,7 +9,6 @@
 */
 
 
-var babelify     = require('babelify');
 var browserify   = require('browserify');
 var watchify     = require('watchify');
 var gulp         = require('gulp');
@@ -17,6 +16,7 @@ var source       = require('vinyl-source-stream');
 var gStreamify   = require('gulp-streamify');
 var rename       = require('gulp-rename');
 var uglify       = require('gulp-uglify');
+var karma        = require('karma').server;
 var config       = require('../config').browserify;
 var env          = require('../config').env;
 var handleErrors = require('../util/handleErrors');

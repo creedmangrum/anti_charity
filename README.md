@@ -1,98 +1,75 @@
-## React Starter Kit — "isomorphic" web app boilerplate
+# anti_charity
 
-[![Support us on Bountysource](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/banner.png)](https://salt.bountysource.com/teams/react-starter-kit)<br>
+## Development
 
-> [React Starter Kit](https://www.reactstarterkit.com) is an opinionated
-> boilerplate for web development built on top of Facebook's
-> [React](https://facebook.github.io/react/) library,
-> [Node.js](https://nodejs.org/) / [Express](http://expressjs.com/) server
-> and [Flux](http://facebook.github.io/flux/) architecture. Containing
-> modern web development tools such as [Webpack](http://webpack.github.io/),
-> [Babel](http://babeljs.io/) and [BrowserSync](http://www.browsersync.io/).
-> Helping you to stay productive following the best practices. A solid starting
-> point for both professionals and newcomers to the industry.
+cookie
+### Static assets
 
-See [demo](http://demo.reactstarterkit.com) &nbsp;|&nbsp;
-[docs](https://github.com/kriasoft/react-starter-kit/tree/master/docs) &nbsp;|&nbsp;
-[bugs & feature requests](https://waffle.io/kriasoft/react-starter-kit) &nbsp;|&nbsp;
-join [#react-starter-kit](https://gitter.im/kriasoft/react-starter-kit) chatroom to stay up to date &nbsp;|&nbsp;
-visit our sponsors:
+There are two global dependencies used to build the static assets: node.js and gulp.
+Node.js is the engine for the javascript build tools gulp and browserify.
 
-[![Rollbar - Full-stack error tracking for all apps in any language](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/rollbar.png)](https://rollbar.com/?utm_source=reactstartkit(github)&utm_medium=link&utm_campaign=reactstartkit(github)) &nbsp;&nbsp;
-[![Localize - Translate your web app in minutes](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/localize.png)](https://localizejs.com/?cid=802&utm_source=rsk)
+    $ brew install node.js
 
-### Getting Started
+gulp is the javascript task runner in node that runs that various build tasks
 
-  * Follow the [getting started guide](./docs/getting-started.md) to download and run the project
-  * Check the [code recipes](./docs/recipes) used in this boilerplate, or share yours
+    $ npm install --global gulp
 
-### Directory Layout
+Install build and runtime dependencies using npm. These can be both build and runtime dependencies
 
-```
-.
-├── /build/                     # The folder for compiled output
-├── /docs/                      # Documentation files for the project
-├── /node_modules/              # 3rd-party libraries and utilities
-├── /src/                       # The source code of the application
-│   ├── /actions/               # Action creators that allow to trigger a dispatch to stores
-│   ├── /components/            # React components
-│   ├── /constants/             # Constants (action types etc.)
-│   ├── /content/               # Static content (plain HTML or Markdown, Jade, you name it)
-│   ├── /core/                  # Core framework and utility functions
-│   ├── /data/                  # GraphQL server schema
-│   ├── /decorators/            # Higher-order React components
-│   ├── /public/                # Static files which are copied into the /build/public folder
-│   ├── /stores/                # Stores contain the application state and logic
-│   ├── /client.js              # Client-side startup script
-│   ├── /config.js              # Global application settings
-│   ├── /routes.js              # Universal (isomorphic) application routes
-│   └── /server.js              # Server-side startup script
-├── /tools/                     # Build automation scripts and utilities
-│   ├── /lib/                   # Library for utility snippets
-│   ├── /build.js               # Builds the project from source to output (build) folder
-│   ├── /bundle.js              # Bundles the web resources into package(s) through Webpack
-│   ├── /clean.js               # Cleans up the output (build) folder
-│   ├── /copy.js                # Copies static files to output (build) folder
-│   ├── /deploy.js              # Deploys your web application
-│   ├── /run.js                 # Helper function for running build automation tasks
-│   ├── /runServer.js           # Launches (or restarts) Node.js server
-│   ├── /start.js               # Launches the development web server with "live reload"
-│   └── /webpack.config.js      # Configurations for client-side and server-side bundles
-│── package.json                # The list of 3rd party libraries and utilities
-└── preprocessor.js             # ES6 transpiler settings for Jest
-```
+    $ npm install
 
-### Related Projects
+The task runner for this project is gulp which can run the build and deploy tasks.
+The bundling library used is browserify which takes all the small .coffee files and compiles them into a single script
+named anti_charity.js. In a development environment source maps are also provided in the  anti_charity.js.map file.
+file that can be imported onto the page.
+To build the bundle run gulp.
 
-  * [Membership Database](https://github.com/membership/membership.db) — SQL schema boilerplate for user accounts, profiles, roles, and auth claims
-  * [React Static Boilerplate](https://github.com/koistya/react-static-boilerplate) — Generates static websites from React components
-  * [Babel Starter Kit](https://github.com/kriasoft/babel-starter-kit) — Boilerplate for authoring JavaScript/React.js libraries
-  * [React Decorators](https://github.com/kriasoft/react-decorators) — A collection of higher-order React components
+    $ gulp
 
-### Learn More
+In a local environment gulp will run both the browserify bundling task as well as the testing with a file watcher.
+That means that when any file is changed, the bundle will automatically be rebuilt and the tests will automatically be re run.
+Gulp will continue to watch the files as long as the process is running in that tab.
+The tasks can be found in the gulpfile.js.
+Press ctrl + c to stop listening for file changes.
 
-  * [Getting Started with React.js](http://facebook.github.io/react/)
-  * [Getting Started with GraphQL and Relay](https://quip.com/oLxzA1gTsJsE)
-  * [React.js Questions on StackOverflow](http://stackoverflow.com/questions/tagged/reactjs)
-  * [React.js Discussion Board](https://discuss.reactjs.org/)
-  * [Flux Architecture for Building User Interfaces](http://facebook.github.io/flux/)
-  * [Jest - Painless Unit Testing](http://facebook.github.io/jest/)
-  * [Flow - A static type checker for JavaScript](http://flowtype.org/)
-  * [The Future of React](https://github.com/reactjs/react-future)
-  * [Learn ES6](https://babeljs.io/docs/learn-es6/), [ES6 Features](https://github.com/lukehoban/es6features#readme)
+You can also run individual gulp tasks:
 
-### Support
+    $ gulp test
 
-  * [#react-starter-kit](https://gitter.im/kriasoft/react-starter-kit) on Gitter — Feedback, feature requests, Q&A
-  * [@koistya](https://www.codementor.io/koistya) on Codementor — Mentorship, pair coding, code reviews
-  * support@kriasoft.com — Customization requests, help with GraphQL/Relay, database design etc.
+In a non-local environment, the bundle is automatically minified and a gzip file is produced.
+Also the build will only run once.
+To change the environment export the GULP_DEPLOY_ENV environment variable. There are currently three different
+environment variables that can be found in the the /static/config/env directory. There are currently three
+environments: production, development, and local. Requiring the /config/conf
+module allows you to use deployment specific variables such as endpoints and tokens.
+For example, to set the environment to 'production', export the node env environment variable and re run gulp.
+Unlike file changes, you will need to stop and restart the gulp process with ctrl + c for the changes to take .
 
-### License
+    $ export GULP_DEPLOY_ENV=production
 
-Copyright © 2014-2016 Kriasoft, LLC. This source code is licensed under the MIT
-license found in the [LICENSE.txt](https://github.com/kriasoft/react-starter-kit/blob/master/LICENSE.txt)
-file. The documentation to the project is licensed under the
-[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) license.
+To run locally, use the local environment. The Local environment config can be found in static/config/env/local.js.
 
----
-Made with ♥ by Konstantin Tarkus ([@koistya](https://twitter.com/koistya)) and [contributors](https://github.com/kriasoft/react-starter-kit/graphs/contributors)
+    $ export GULP_DEPLOY_ENV=local
+
+
+
+## Bump and Deploy
+
+There are automated tasks to bump the version in the package.json and to deploy that version to the CDN.
+You can bump the version number by calling the gulp tasks for major, minor or patch versions as per [semantic versioning](http://semver.org).
+For example:
+
+    $ gulp patch
+
+or
+
+    $ gulp major
+
+The deploy gulp task will automatically deploy the appropriate version to the CDN. It uses an gulp plugin called gulp-awspublish.
+Deployment should always be done as part of the build step in production which will have the appropriate IAM roles on
+the build machine. To use this plugin locally you will need to copy your AWS credentials on any of our Jenkins servers
+to your local machine. You should have a file at ~/.aws/credentials that contains your access key and secret access key
+as can be found in the [node.js aws sdk](http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html).
+Once that credentials file is present, you can deploy using the gulp task.
+
+    $ gulp deploy

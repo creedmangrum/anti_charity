@@ -22,7 +22,7 @@ gulp.task('deploy', function () {
         'Expires': yearFromNow
     };
 
-    return gulp.src('./carna/static/js/*.js')
+    return gulp.src('./js/*.js')
         .pipe(rename(function (path) {
             path.dirname = getPathName();
         }))

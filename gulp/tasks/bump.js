@@ -19,4 +19,3 @@ function bumpVersion(versionType) {
 gulp.task('major', function() { bumpVersion('major') });
 gulp.task('minor', function() { bumpVersion('minor') });
 gulp.task('patch', function() { bumpVersion('patch') });
-gulp.task('prerelease', function() { bumpVersion('prerelease') });

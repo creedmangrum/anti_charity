@@ -13,13 +13,13 @@ module.exports = function(karma) {
         'node_modules/underscore/underscore.js',
         'node_modules/backbone/backbone.js',
         'node_modules/jquery/dist/jquery.js',
-        'carna/static/coffee/tests/**/*.coffee'
+        'anti_charity/static/coffee/tests/**/*.coffee'
     ],
 
     // add preprocessor to the files that should be
     // processed via browserify
     preprocessors: {
-      'carna/static/coffee/tests/**/*.coffee': [ 'browserify' ]
+      'anti_charity/static/coffee/tests/**/*.coffee': [ 'browserify' ]
     },
 
     //we may be able to modify the browser on the fly with gulp like adding ie8
