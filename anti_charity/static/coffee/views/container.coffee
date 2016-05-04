@@ -18,7 +18,9 @@ Container = Ractive.extend({
       LoginPage: require('./login_page.coffee')
       NewCampaign: require('./new_campaign.coffee')
       Profile: require('./profile.coffee')
+      SignupPage: require('./signup_page.coffee')
       Toolbar: require('./toolbar.coffee')
+      WhyAnticharity: require('./why_anticharity.coffee')
   })
 
 module.exports = Container

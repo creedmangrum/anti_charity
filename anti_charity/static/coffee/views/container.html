@@ -4,7 +4,10 @@
     	<Home message='creed'/>
     {{ /if }}
     {{ #if login_page }}
-    	<LoginPage />
+    	<LoginPage logging_in='true'/>
+    {{ /if }}
+    {{ #if signup_page }}
+    	<SignupPage />
     {{ /if }}
     {{ #if profile_page }}
     	<Profile />
@@ -20,6 +23,9 @@
 	{{ /if }}
     {{ #if browse_campagins_page }}
     	<BrowseCampaigns />
+    {{ /if }}
+    {{ #if why_anticharity_page }}
+    	<WhyAnticharity />
     {{ /if }}
 </div>
 <Footer />
