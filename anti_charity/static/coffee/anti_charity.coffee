@@ -22,6 +22,7 @@ $( ->
     	profile_page: false
     	signup_page: false
     	why_anticharity_page: false
+    	authenticated: true
   )
 
   $('#signup-toolbar').click( ->
@@ -42,6 +43,7 @@ $( ->
   		profile_page: false
   		signup_page: false
   		why_anticharity_page: false
+
   	))
 
   $('#anticharity-home-toolbar').click( ->
@@ -61,6 +63,8 @@ $( ->
   		new_campaign_page: false
   		profile_page: true
   		signup_page: false
+  		user:
+  			name: 'Creeder'
   		why_anticharity_page: false
   	))
 

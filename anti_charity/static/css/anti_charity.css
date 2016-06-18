@@ -6,6 +6,11 @@
 	margin-top: 10px;
 }
 
+.toolbar div {
+	cursor: pointer;
+	cursor: hand;
+}
+
 #content-container {
 	background: #f7fafa;
 }
@@ -19,6 +24,14 @@
 	padding-top: 15px;
 }
 
+
+/* Profile Page */
+#general-profile-information {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 1px solid black;
+	font-family: 'Khand', sans-serif;
+}
 
 /* Footer CSS */
 .footer {
