@@ -38,9 +38,4 @@ elif env.lower() == 'demo-prd':
 else:
     config = settings.Development
 
-# New Relic Initialization
-import newrelic.agent
-nr_config_file = os.path.join(app_dir, 'newrelic.ini')
-newrelic.agent.initialize(nr_config_file, env.lower())
-
 application = app.create_app(config=config)
