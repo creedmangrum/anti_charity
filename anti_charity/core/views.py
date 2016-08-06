@@ -12,10 +12,15 @@ from __future__ import print_function
 
 import flask
 
-from flask import render_template
+from flask import render_template, jsonify
+
+import json
+
+from anti_charity.api.giftbit import GiftbitAPI
 
 
 CORE = flask.Blueprint('core', __name__, url_prefix='')
+API = flask.Blueprint('api', __name__, url_prefix='/api')
 
 
 @CORE.route('/status', methods=['GET'])
@@ -27,3 +32,11 @@ def get_status():
 @CORE.route('/', methods=['GET'])
 def index():
   return render_template('index.html')
+
+
+
+@API.route('/giftbit/marketplace', methods=['GET'])
+def get_giftbit_marketplace():
+    marketplace = GiftbitAPI().get_marketplace()
+
+    return jsonify(marketplace)

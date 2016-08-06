@@ -56,6 +56,7 @@ def register_blueprints(app):
     # Import and register blueprints here.
     from anti_charity.core import views as coreViews
     app.register_blueprint(coreViews.CORE)
+    app.register_blueprint(coreViews.API)
 
     from anti_charity.docs.views import mod as docsModule
     app.register_blueprint(docsModule)

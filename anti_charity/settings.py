@@ -38,9 +38,15 @@ class Common(object):
     LOGGING_LEVEL = logging.INFO
     LOGGING_STDOUT = True
 
+    GIFTBIT_API_TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJTSEEyNTYifQ==.dVZxR0hWeHNnTlNTZlovZ1ZZamZzbk5OOWR5OXVhQkNWakZ3N0x' \
+                        'qemZEbWN0Q0JZZ2JBTUVFVVhTK21XNit4a2NNa3VDNGZyc0IreldRbkpCYVgzY0tOWU5FVDNERWg4UUdRczZjd21QRUt' \
+                        '0dGlvZlozVU1TRmxlb2p5Z3BONkc=.XOvDLIJQ+C8tg7oZd8izSCCeUqh50LcMlCCxP4nTvaI='
+    GIFTBIT_API_URL = 'https://testbedapp.giftbit.com/papi/v1'
+
 
 class Local(Common):
     SQLALCHEMY_DATABASE_URI = 'postgresql://cmangrum:cmangrum11@localhost/db_anti_charity'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
     SENTRY_DSN = ''
     DEBUG = True
     LOGGING_STDOUT = True
