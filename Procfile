@@ -1,0 +1,1 @@
+web: gunicorn anti_charity.wsgi

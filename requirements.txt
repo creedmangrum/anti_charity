@@ -26,3 +26,4 @@ graphene==0.7.3
 Flask-GraphQL==1.1.0
 singledispatch==3.4.0.3
 awsebcli==3.7.6
+gunicorn==19.6.0
