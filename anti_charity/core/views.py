@@ -12,7 +12,7 @@ from __future__ import print_function
 
 import flask
 
-from flask import render_template, jsonify
+from flask import render_template, jsonify, request
 
 import json
 
@@ -40,3 +40,9 @@ def get_giftbit_marketplace():
     marketplace = GiftbitAPI().get_marketplace()
 
     return jsonify(marketplace)
+
+
+@API.route('/giftbit/campaign', methods='[POST]')
+def post_giftbit_campaign():
+    data = request.data
+    new_gift_card = GiftbitAPI().post_campaign(data=data)
