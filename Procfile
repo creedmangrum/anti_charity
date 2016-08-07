@@ -1,1 +1,1 @@
-web: gunicorn anti_charity.wsgi
+web: gunicorn manage:app
