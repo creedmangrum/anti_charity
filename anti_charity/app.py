@@ -12,7 +12,6 @@ from __future__ import unicode_literals
 from __future__ import print_function
 
 from flask import Flask, jsonify
-from flask_graphql import GraphQL
 
 from anti_charity import settings as config
 from anti_charity.core.models import DB
@@ -26,7 +25,6 @@ def create_app(config=config.Local):
     app.config.from_object(config)
     app.json_encoder = CustomJSONEncoder
     DB.init_app(app)
-    GraphQL(app, schema=schema)
 
 
     register_blueprints(app)
