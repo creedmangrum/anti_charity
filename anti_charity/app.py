@@ -17,7 +17,7 @@ from anti_charity import settings as config
 from anti_charity.core.models import DB
 from anti_charity.core.utils import InvalidUsage, CustomJSONEncoder
 
-from anti_charity.core.schema import schema, User, AntiCharity, Goal
+# from anti_charity.core.schema import schema, User, AntiCharity, Goal
 
 
 def create_app(config=config.Local):
