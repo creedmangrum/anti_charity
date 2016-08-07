@@ -108,13 +108,13 @@ class Jenkins(Common):
 # Note that if you have both in play, the local_settings.py, which is the
 # most emphemeral one, is loaded second so it can override the other one,
 # which has things that are probably more enduring.
-
-try:
-    globals().update(importlib.import_module('dev_settings_%s' % os.environ['USER']).__dict__)
-except ImportError:
-    pass
-
-try:
-    from local_settings import *
-except ImportError:
-    pass
+#
+# try:
+#     globals().update(importlib.import_module('dev_settings_%s' % os.environ['USER']).__dict__)
+# except ImportError:
+#     pass
+#
+# try:
+#     from local_settings import *
+# except ImportError:
+#     pass
