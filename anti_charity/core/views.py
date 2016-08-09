@@ -30,6 +30,11 @@ def get_status():
 
 
 @CORE.route('/', methods=['GET'])
+def landing_page():
+    return render_template('landing_page.html')
+
+
+@CORE.route('/home_page', methods=['GET'])
 def index():
   return render_template('index.html')
 
