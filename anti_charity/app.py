@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """\
-© Copyright 2014-2015, Kyruus.  All rights reserved.
+© Copyright 2014-2015, AntiCharity.  All rights reserved.
 
 Flask app creation logic for anti_charity
 
