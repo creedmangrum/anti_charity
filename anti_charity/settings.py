@@ -58,7 +58,7 @@ class Development(Common):
     # Replace with development connection uri
     DEBUG = True
     LOCAL_JS = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql://cmangrum:cmangrum11@localhost/db_anti_charity'
+    SQLALCHEMY_DATABASE_URI = 'postgres://ttwatjhuhittol:6uLOI9WC-eUn5Gu_tCB4rbip8O@ec2-54-243-204-57.compute-1.amazonaws.com:5432/d33h83u7dju49s'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SENTRY_DSN = ''
 
@@ -71,6 +71,7 @@ class Staging(Common):
 class Production(Common):
     # Replace with production connection uri
     DEBUG = False
+    SQLALCHEMY_DATABASE_URI = 'postgres://qtbplqjihjhtpv:oI1jE5YW-tjrz8XsfX6osH-6gt@ec2-54-83-44-117.compute-1.amazonaws.com:5432/d5otruu2plb0pr'
 
 
 class Test(Common):

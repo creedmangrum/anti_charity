@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073ee029-b5c7-4176-8d77-1a0f13b2f484" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/landing_page.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/templates/landing_page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/css/landing_page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/app.py" afterPath="$PROJECT_DIR$/anti_charity/app.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/settings.py" afterPath="$PROJECT_DIR$/anti_charity/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/anti_charity.coffee" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/anti_charity.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/templates/index.html" afterPath="$PROJECT_DIR$/anti_charity/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/templates/landing_page.html" afterPath="$PROJECT_DIR$/anti_charity/templates/landing_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/config.js" afterPath="$PROJECT_DIR$/gulp/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/deploy.js" afterPath="$PROJECT_DIR$/gulp/tasks/deploy.js" />
     </list>
     <ignored path="anti_charity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,18 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/core/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-              <folding>
-                <element signature="e#65#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="landing_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anti_charity/templates/landing_page.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing_page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="landing_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/templates/landing_page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -92,8 +70,18 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anti_charity/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="585">
               <caret line="46" column="36" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -123,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/anti_charity/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+              <caret line="60" column="145" selection-start-line="60" selection-start-column="145" selection-end-line="60" selection-end-column="145" />
               <folding />
             </state>
           </provider>
@@ -204,10 +192,10 @@
         <option value="$PROJECT_DIR$/anti_charity/static/css/landing_page.css" />
         <option value="$PROJECT_DIR$/anti_charity/templates/index.html" />
         <option value="$PROJECT_DIR$/anti_charity/app.py" />
-        <option value="$PROJECT_DIR$/anti_charity/settings.py" />
         <option value="$PROJECT_DIR$/anti_charity/templates/landing_page.html" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/landing_page.coffee" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/templates/landing_page.html" />
+        <option value="$PROJECT_DIR$/anti_charity/settings.py" />
       </list>
     </option>
   </component>
@@ -848,7 +836,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470776137426</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="getting closer to a real landing page">
+      <created>1471096872820</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1471096872820</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -901,7 +896,8 @@
     <MESSAGE value="fiddling with settings" />
     <MESSAGE value="added local .env" />
     <MESSAGE value="creating dev branch with a landing page" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating dev branch with a landing page" />
+    <MESSAGE value="getting closer to a real landing page" />
+    <option name="LAST_COMMIT_MESSAGE" value="getting closer to a real landing page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1076,13 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1238,22 +1227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/templates/landing_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1286,6 +1259,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="60" column="145" selection-start-line="60" selection-start-column="145" selection-end-line="60" selection-end-column="145" />
           <folding />
         </state>
       </provider>
