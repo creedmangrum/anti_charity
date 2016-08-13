@@ -1,5 +1,5 @@
 /**
- * Created by afiedler on 1/22/15.
+ * Created by creedmangrum on 8/13/16.
  */
 var gulp = require('gulp'),
     awspublish = require('gulp-awspublish'),
@@ -13,7 +13,10 @@ gulp.task('deploy', function () {
         return 'lib/' + appName + '/' + version;
     }
 
-    var publisher = awspublish.create({ bucket: 'com.kyruus.cdn'});
+    var publisher = awspublish.create({
+        region: 'Oregon',
+        bucket: 'anticharity'
+    });
 
     var today = new Date();
     var yearFromNow = new Date(today.setFullYear(today.getFullYear() + 1));

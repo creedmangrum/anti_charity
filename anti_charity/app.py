@@ -38,6 +38,23 @@ def create_app(config=config.Local):
         #   the 'Standard Analytics Kloggyr Event Names' document on Confluence.
         #   https://kyruus.jira.com/wiki/display/ANL/Standard+Analytics+Kloggyr+Events
 
+    @app.context_processor
+    def get_landing_page_js_url():
+        if app.config.get('LOCAL_JS'):
+            url = 'static/js/anticharity_landing_page.js'
+        else:
+            url = 'https://s3-us-west-2.amazonaws.com/anticharity/js/manual_upload/anticharity_landing_page.min.js'
+        return {'landing_page_js_url': url}
+
+    @app.context_processor
+    def get_app_js_url():
+        if app.config.get('LOCAL_JS'):
+            url = 'static/js/anti_charity.js'
+        else:
+            url = 'https://s3-us-west-2.amazonaws.com/anticharity/js/manual_upload/anti_charity.min.js'
+        return {'app_js_url': url}
+
+
     @app.errorhandler(InvalidUsage)
     def handle_invalid_usage(error):
         """A handler for any endpoint that raises an InvalidUsage exception"""

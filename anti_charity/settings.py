@@ -33,7 +33,8 @@ class Common(object):
 
     # ISO time format
     TIME_FORMAT = '%Y-%m-%dT%H:%M:%S.%fZ'
-    UH_KEY = 'uh'
+
+    LOCAL_JS = False
 
     LOGGING_LEVEL = logging.INFO
     LOGGING_STDOUT = True
@@ -50,11 +51,16 @@ class Local(Common):
     SENTRY_DSN = ''
     DEBUG = True
     LOGGING_STDOUT = True
+    LOCAL_JS = True
 
 
 class Development(Common):
     # Replace with development connection uri
     DEBUG = True
+    LOCAL_JS = False
+    SQLALCHEMY_DATABASE_URI = 'postgresql://cmangrum:cmangrum11@localhost/db_anti_charity'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SENTRY_DSN = ''
 
 
 class Staging(Common):

@@ -28,6 +28,11 @@ module.exports = {
       entries: [src + '/coffee/anti_charity.coffee'],
       dest: dest +'/js',
       outputName: 'anti_charity.js'
-    }]
+    },
+      {
+        entries: [src + '/coffee/landing_page.coffee'],
+        dest: dest + '/js',
+        outputName: 'anticharity_landing_page.js'
+      }]
   }
 };
