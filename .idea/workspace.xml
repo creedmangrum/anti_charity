@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073ee029-b5c7-4176-8d77-1a0f13b2f484" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/d4f14d134a36_.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/anti_charity.iml" afterPath="$PROJECT_DIR$/.idea/anti_charity.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/app.py" afterPath="$PROJECT_DIR$/anti_charity/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/core/models.py" afterPath="$PROJECT_DIR$/anti_charity/core/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/core/views.py" afterPath="$PROJECT_DIR$/anti_charity/core/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/settings.py" afterPath="$PROJECT_DIR$/anti_charity/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/landing_page.coffee" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/landing_page.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/templates/landing_page.html" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/templates/landing_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
     </list>
     <ignored path="anti_charity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing_page.coffee" pinned="false" current-in-tab="true">
+      <file leaf-file-name="landing_page.coffee" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/landing_page.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,16 +77,6 @@
               <folding>
                 <element signature="e#26#65#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -207,6 +198,7 @@
         <option value="$PROJECT_DIR$/anti_charity/core/views.py" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/templates/landing_page.html" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/landing_page.coffee" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -781,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471098306481</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="email goes into DB!">
+      <created>1471147096049</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1471147096049</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -836,7 +835,8 @@
     <MESSAGE value="creating dev branch with a landing page" />
     <MESSAGE value="getting closer to a real landing page" />
     <MESSAGE value="trying to get to pull js from aws" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to get to pull js from aws" />
+    <MESSAGE value="email goes into DB!" />
+    <option name="LAST_COMMIT_MESSAGE" value="email goes into DB!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -852,13 +852,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulp/tasks/sass.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulp/tasks/watch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1241,6 +1234,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
