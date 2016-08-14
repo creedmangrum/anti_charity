@@ -19,8 +19,8 @@ from flask.ext.migrate import Migrate, MigrateCommand
 from flask.ext.sqlalchemy import sqlalchemy
 
 from anti_charity import models
-from anti_charity.app import create_app
-from anti_charity.core.models import Base, DB
+from anti_charity.app import create_app, db
+from anti_charity.core.models import InterestedEmail
 
 
 key = 'APP_ENVIRONMENT'
@@ -41,7 +41,7 @@ settings = getattr(settings, env_name)
 print("Imported %s settings!" % env_name)
 
 app = create_app(config=settings)
-migrate = Migrate(app, DB)
+migrate = Migrate(app, db)
 manager = Manager(app)
 manager.add_command('db', MigrateCommand)
 

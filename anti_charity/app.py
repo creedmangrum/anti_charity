@@ -12,19 +12,21 @@ from __future__ import unicode_literals
 from __future__ import print_function
 
 from flask import Flask, jsonify
+from flask.ext.sqlalchemy import SQLAlchemy
+from sqlalchemy.util._collections import immutabledict
 
 from anti_charity import settings as config
-from anti_charity.core.models import DB
 from anti_charity.core.utils import InvalidUsage, CustomJSONEncoder
 
-# from anti_charity.core.schema import schema, User, AntiCharity, Goal
+db = SQLAlchemy(session_options={'autocommit': False, 'autoflush': False, 'expire_on_commit': True})
+db.metadata.naming_convention = immutabledict({'ix': '%(column_0_label)s'})
 
 
 def create_app(config=config.Local):
     app = Flask(__name__)
     app.config.from_object(config)
     app.json_encoder = CustomJSONEncoder
-    DB.init_app(app)
+    db.init_app(app)
 
 
     register_blueprints(app)
@@ -62,7 +64,7 @@ def create_app(config=config.Local):
 
     @app.teardown_appcontext
     def shutdown_session(exception=None):
-        DB.session.remove()
+        db.session.remove()
 
     return app
 

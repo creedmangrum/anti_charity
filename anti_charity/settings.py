@@ -46,7 +46,7 @@ class Common(object):
 
 
 class Local(Common):
-    SQLALCHEMY_DATABASE_URI = 'postgresql://cmangrum:cmangrum11@localhost/db_anti_charity'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://creedmangrum@localhost/anticharity'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SENTRY_DSN = ''
     DEBUG = True

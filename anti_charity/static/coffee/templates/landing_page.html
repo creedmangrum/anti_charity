@@ -18,8 +18,17 @@
                 If you'd like to know more, or just want to be notified when we are live, go ahead and throw your email
                 in the box below.
             </div>
-            <div id="interested-email">
-                <input type="email" placeholder="Email"/>
+            <div class="row-fluid">
+                {{ #if success }}
+                <div>
+                    {{ message }}
+                </div>
+                {{ else }}
+                <div id="interested-email">
+                    <input type="email" placeholder="Email" value="{{ email }}"/>
+                </div>
+                <button id="submit-email" on-click="submit_email()">Submit</button>
+                {{ /if }}
             </div>
         </div>
     </div>
