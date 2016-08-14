@@ -72,6 +72,8 @@ class Production(Common):
     # Replace with production connection uri
     DEBUG = False
     SQLALCHEMY_DATABASE_URI = 'postgres://qtbplqjihjhtpv:oI1jE5YW-tjrz8XsfX6osH-6gt@ec2-54-83-44-117.compute-1.amazonaws.com:5432/d5otruu2plb0pr'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    LOCAL_JS = False
 
 
 class Test(Common):
