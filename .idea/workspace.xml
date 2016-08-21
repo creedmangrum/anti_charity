@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073ee029-b5c7-4176-8d77-1a0f13b2f484" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/78a8d2490557_.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/core/models.py" afterPath="$PROJECT_DIR$/anti_charity/core/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/core/utils.py" afterPath="$PROJECT_DIR$/anti_charity/core/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/core/views.py" afterPath="$PROJECT_DIR$/anti_charity/core/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/settings.py" afterPath="$PROJECT_DIR$/anti_charity/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/anti_charity.coffee" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/anti_charity.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/signup_page.coffee" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/signup_page.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/signup_page.html" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/signup_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <ignored path="anti_charity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup_page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="signup_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/signup_page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -121,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/anti_charity/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
               <folding>
                 <element signature="e#138#177#0" expanded="true" />
               </folding>
@@ -209,10 +199,10 @@
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/signup_page.coffee" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/anti_charity/settings.py" />
         <option value="$PROJECT_DIR$/anti_charity/core/utils.py" />
         <option value="$PROJECT_DIR$/anti_charity/core/views.py" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/signup_page.html" />
+        <option value="$PROJECT_DIR$/anti_charity/settings.py" />
       </list>
     </option>
   </component>
@@ -827,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471148104140</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="sign up commits to db">
+      <created>1471755500147</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1471755500147</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -884,7 +881,8 @@
     <MESSAGE value="trying to get to pull js from aws" />
     <MESSAGE value="email goes into DB!" />
     <MESSAGE value="updating settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating settings" />
+    <MESSAGE value="sign up commits to db" />
+    <option name="LAST_COMMIT_MESSAGE" value="sign up commits to db" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1230,16 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
-          <folding>
-            <element signature="e#138#177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1273,6 +1261,16 @@
         <state relative-caret-position="240">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <element signature="e#138#177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

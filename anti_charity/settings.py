@@ -44,7 +44,7 @@ class Common(object):
                         '0dGlvZlozVU1TRmxlb2p5Z3BONkc=.XOvDLIJQ+C8tg7oZd8izSCCeUqh50LcMlCCxP4nTvaI='
     GIFTBIT_API_URL = 'https://testbedapp.giftbit.com/papi/v1'
 
-    ENCRYPTION_KEY = '1HV3X5Yt0xkALtFb1NzLl3T3E14RIYdujeJ6NP1-5C8='
+    ENCRYPTION_KEY = 'hideme'
 
 
 class Local(Common):
