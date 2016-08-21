@@ -17,7 +17,7 @@ $( ->
     	profile_page: false
     	signup_page: false
     	why_anticharity_page: false
-    	authenticated: true
+    	authenticated: false
   )
 
   $('#signup-toolbar').click( ->

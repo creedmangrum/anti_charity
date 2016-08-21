@@ -14,8 +14,9 @@ import flask
 
 from flask import render_template, jsonify, request
 
-from anti_charity.core.models import InterestedEmail
+from anti_charity.core.models import InterestedEmail, User
 from anti_charity.app import db
+from anti_charity.core.utils import Cryptography
 
 import json
 
@@ -71,3 +72,16 @@ def post_interested_email():
         return jsonify({'response': 'Thanks, we\'ll be helping you soon'})
     return jsonify({'response': 'Something went wrong',
                     'email': email})
+
+
+@API.route('/register', methods=['POST'])
+def post_register_new_user():
+    data = json.loads(request.data)
+    user = User(data.get('email'), data.get('password'))
+    db.session.add(user)
+    try:
+        db.session.commit()
+    except:
+        db.session.rollback()
+        return jsonify({'response': 'Something went wrong'})
+    return jsonify({'response': 'Thanks for signing up'})
