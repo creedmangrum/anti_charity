@@ -85,3 +85,19 @@ def post_register_new_user():
         db.session.rollback()
         return jsonify({'response': 'Something went wrong'})
     return jsonify({'response': 'Thanks for signing up'})
+
+
+@API.route('/login', methods=['POST'])
+def post_login():
+    data = json.loads(request.data)
+    authenticated = False
+    import ipdb; ipdb.set_trace()
+    try:
+        user = db.session.query(User).filter(User.email == data.get('email')).first()
+        if user.password == data.get('password'):
+            authenticated = True
+    except:
+        return jsonify({'response': 'Sorry this email doesn\'t exist yet'}), 401
+    return jsonify({'response': 'logged in',
+                    'email': data.get('email')}) if authenticated else \
+        jsonify({'response': 'Incorrect password'})
