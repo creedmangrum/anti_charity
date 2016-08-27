@@ -1,31 +1,31 @@
 <Toolbar name="AntiCharity" authenticated="{{ authenticated }}"/>
 <div id="content-container" class="container-fluid">
     {{ #if home_page }}
-    	<Home message='creed'/>
+    	<Home message='creed' authenticated="{{ authenticated }}"/>
     {{ /if }}
     {{ #if login_page }}
-    	<LoginPage logging_in='false'/>
+    	<LoginPage logging_in='false' authenticated="{{ authenticated }}"/>
     {{ /if }}
     {{ #if signup_page }}
-    	<SignupPage />
+    	<SignupPage authenticated="{{ authenticated }}"/>
     {{ /if }}
     {{ #if profile_page }}
-    	<Profile />
+    	<Profile authenticated="{{ authenticated }}"/>
     {{ /if }}
     {{ #if anticharity_page }}
-    	<AnticharityOrg />
+    	<AnticharityOrg authenticated="{{ authenticated }}"/>
     {{ /if }}
     {{ #if campaign_page }}
-    	<Campaign />
+    	<Campaign authenticated="{{ authenticated }}"/>
     {{ /if }}
     {{ #if new_campaign_page }}
-    	<NewCampaign />
+    	<NewCampaign authenticated="{{ authenticated }}"/>
 	{{ /if }}
     {{ #if browse_campagins_page }}
-    	<BrowseCampaigns />
+    	<BrowseCampaigns authenticated="{{ authenticated }}"/>
     {{ /if }}
     {{ #if why_anticharity_page }}
-    	<WhyAnticharity />
+    	<WhyAnticharity authenticated="{{ authenticated }}"/>
     {{ /if }}
 </div>
 <Footer />

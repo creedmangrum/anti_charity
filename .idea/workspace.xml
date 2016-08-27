@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="073ee029-b5c7-4176-8d77-1a0f13b2f484" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/login_page.coffee" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/login_page.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" />
     </list>
     <ignored path="anti_charity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_page.coffee" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login_page.coffee" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/login_page.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="container.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/container.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -119,16 +129,6 @@
               <folding>
                 <element signature="e#138#177#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -192,7 +192,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/anti_charity/core/models.py" />
         <option value="$PROJECT_DIR$/migrations/versions/78a8d2490557_.py" />
-        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/anti_charity.coffee" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/signup_page.coffee" />
         <option value="$PROJECT_DIR$/requirements.txt" />
@@ -203,6 +202,7 @@
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/login_page.html" />
         <option value="$PROJECT_DIR$/anti_charity/core/views.py" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/login_page.coffee" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" />
       </list>
     </option>
   </component>
@@ -838,7 +838,14 @@
       <option name="project" value="LOCAL" />
       <updated>1472298984328</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="set authenticated to true">
+      <created>1472299180794</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1472299180794</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -898,7 +905,8 @@
     <MESSAGE value="sign up commits to db" />
     <MESSAGE value="don't put secrets here" />
     <MESSAGE value="create user and log in" />
-    <option name="LAST_COMMIT_MESSAGE" value="create user and log in" />
+    <MESSAGE value="set authenticated to true" />
+    <option name="LAST_COMMIT_MESSAGE" value="set authenticated to true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1186,14 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/container.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/anti_charity.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1292,6 +1292,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/container.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding />
         </state>
       </provider>
