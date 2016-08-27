@@ -10,7 +10,6 @@ _ = require('underscore')
 LoginPage = Ractive.extend({
   template: require('./login_page.html')
   log_in: ->
-    debugger
     data =
       email: @get('email')
       password: @get('password')
@@ -21,7 +20,12 @@ LoginPage = Ractive.extend({
       data: JSON.stringify(data)
       dataType: 'json'
       success: (result) =>
-        debugger
+        if result.response is 'logged in'
+          @set('authenticated', true)
+          @set('email', result.email)
+        else
+          @set('authenticated', false)
+          @set('error_message', result.response)
     )
 })
 
