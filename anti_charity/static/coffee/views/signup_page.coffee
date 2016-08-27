@@ -1,11 +1,8 @@
 'use strict'
-Backbone = require 'backbone'
 $ = require 'jquery'
-Backbone.$ = $
 Ractive = require('ractive')
-backboneAdaptor = require('ractive-adaptors-backbone')
-backboneAdaptor.Backbone = Backbone
 _ = require('underscore')
+FacebookStrategy = require('passport-facebook').Strategy;
 
 SignupPage = Ractive.extend({
   template: require('./signup_page.html')
@@ -23,6 +20,8 @@ SignupPage = Ractive.extend({
       success: (result) =>
         debugger
     )
+  sign_up_facebook: ->
+    debugger
 })
 
 module.exports = SignupPage
