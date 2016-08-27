@@ -9,6 +9,20 @@ _ = require('underscore')
 
 SignupPage = Ractive.extend({
   template: require('./signup_page.html')
+  sign_up: ->
+    data =
+      name: @get('name')
+      email: @get('email')
+      password: @get('password')
+    $.ajax(
+      url: '/api/register'
+      type: 'POST'
+      contentType: 'application/json'
+      data: JSON.stringify(data)
+      dataType: 'json'
+      success: (result) =>
+        debugger
+    )
 })
 
 module.exports = SignupPage
