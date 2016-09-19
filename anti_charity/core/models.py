@@ -30,13 +30,18 @@ from anti_charity.app import db
 #     name = Column(String)
 #
 #
-# class User(Base):
-#     __tablename__ = 'user'
-#     id = Column(Integer, primary_key=True)
-#     name = Column(String)
-#     started_on = Column(DateTime, default=func.now())
-#     deadline = Column(DateTime)
-#     anticharity = Column(String)
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(120))
+    email = db.Column(db.String(120), unique=True)
+    password = db.Column(db.String(256))
+
+    def __init__(self, email, password):
+        self.email = email
+        self.password = password
+
+    def __repr__(self):
+        return '<email %r>' % self.email
 
 
 class InterestedEmail(db.Model):

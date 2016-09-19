@@ -49,7 +49,7 @@ manager.add_command('db', MigrateCommand)
 
 @manager.shell
 def make_shell_context():
-    return dict(app=app, db=DB, models=models)
+    return dict(app=app, db=db, models=models)
 
 
 @manager.command

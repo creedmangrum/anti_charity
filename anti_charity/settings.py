@@ -44,6 +44,8 @@ class Common(object):
                         '0dGlvZlozVU1TRmxlb2p5Z3BONkc=.XOvDLIJQ+C8tg7oZd8izSCCeUqh50LcMlCCxP4nTvaI='
     GIFTBIT_API_URL = 'https://testbedapp.giftbit.com/papi/v1'
 
+    ENCRYPTION_KEY = 'hideme'
+
 
 class Local(Common):
     SQLALCHEMY_DATABASE_URI = 'postgresql://creedmangrum@localhost/anticharity'
