@@ -8,4 +8,4 @@ anti_charity/static/js/anti_charity.js.map
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 workspace.xml
-.idea/*
+!.idea/*
