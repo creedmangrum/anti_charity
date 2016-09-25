@@ -33,12 +33,12 @@ def get_status():
     return flask.jsonify(response), 200
 
 
-@CORE.route('/', methods=['GET'])
+@CORE.route('/landing-page', methods=['GET'])
 def landing_page():
     return render_template('landing_page.html')
 
 
-@CORE.route('/home_page', methods=['GET'])
+@CORE.route('/', methods=['GET'])
 def index():
   return render_template('index.html')
 
