@@ -1,0 +1,24 @@
+<div class="row toolbar">
+    <div class="col-md-1"></div>
+    <div class="col-md-3" id='anticharity-home-toolbar'>
+        <div class="toolbar-logo">
+            <img src="http://d1mqoh213yi928.cloudfront.net/img/anticharity_app_iconRGB-01.png" id="toolbar-logo-icon"/>
+        </div>
+    </div>
+    <div class="col-md-2 toolbar-item" id='set-a-goal-toolbar'>
+        Set A Goal
+    </div>
+    <div class="col-md-2 toolbar-item" id='why-anticharity-toolbar'>
+        Why AntiCharity?
+    </div>
+    <div class="col-md-3">
+        {{ #if authenticated }}
+            <div class="col-md-12 toolbar-item" id='profile-toolbar'>Profile</div>
+        {{ else }}
+            <div class="col-md-6 toolbar-item" id='signup-toolbar'>Sign Up</div>
+            <div class="col-md-6 toolbar-item" id='login-toolbar'>Login</div>
+        {{ /if }}
+    </div>
+    <div class="col-md-1"></div>
+</div>
+

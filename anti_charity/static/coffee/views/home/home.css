@@ -1,0 +1,35 @@
+.home-about-scrollable {
+    text-align: center;
+}
+
+.home-about-scrollable-item {
+    background-color: #f6f6f6;
+	border: 2px solid #ef5b0d;
+	border-radius: 8px;
+    margin-bottom: 2.5rem;
+    overflow: hidden;
+	padding: 1.5rem;
+    text-align: center;
+}
+
+.home-about-scrollable-item-text-right {
+    top: 3rem;
+}
+
+.home-about-scrollable-item-text-paragraph {
+    margin-bottom: 1.5rem;
+}
+
+.home-about-scrollable-item-image-div {
+    text-align: center;
+}
+
+.home-about-scrollable-item-image {
+    height: 280px;
+}
+
+.home-scrollable-toggle {
+    color: #ef5b0d;
+    cursor: pointer;
+    margin: 0 1rem;
+}
