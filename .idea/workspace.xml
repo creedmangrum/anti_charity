@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073ee029-b5c7-4176-8d77-1a0f13b2f484" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/anti_charity.coffee" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/anti_charity.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/core/views.py" afterPath="$PROJECT_DIR$/anti_charity/core/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/templates/index.html" afterPath="$PROJECT_DIR$/anti_charity/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/css/anti_charity.css" afterPath="$PROJECT_DIR$/anti_charity/static/css/anti_charity.css" />
     </list>
     <ignored path="anti_charity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,88 +33,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/anti_charity/core/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="container.coffee" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="180">
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing_page.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/landing_page.coffee">
+      <file leaf-file-name="under_construction.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submit_interested_email.coffee" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/templates/landing_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="29" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/profile/profile.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submit_interested_email.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submit_interested_email.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.css">
+      <file leaf-file-name="campaign.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/campaign.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -126,11 +73,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee">
+      <file leaf-file-name="under_construction.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+            <state relative-caret-position="120">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="under_construction.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anticharity_template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/templates/anticharity_template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anti_charity.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/css/anti_charity.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toolbar.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar/toolbar.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -155,12 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulp/tasks/babel.js" />
-        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar.coffee" />
-        <option value="$PROJECT_DIR$/anti_charity/static/stylesheets/anti_charity.scss" />
-        <option value="$PROJECT_DIR$/gulp/tasks/sass.js" />
-        <option value="$PROJECT_DIR$/gulp/tasks/default.js" />
-        <option value="$PROJECT_DIR$/gulp/tasks/build.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/anti_charity/api/giftbit.py" />
         <option value="$PROJECT_DIR$/anti_charity/wsgi.py" />
@@ -183,7 +174,6 @@
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/signup_page.html" />
         <option value="$PROJECT_DIR$/anti_charity/settings.py" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/login_page.html" />
-        <option value="$PROJECT_DIR$/anti_charity/core/views.py" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/login_page.coffee" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar.html" />
@@ -194,11 +184,8 @@
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar/toolbar.css" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/profile/profile.css" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/profile/profile.html" />
-        <option value="$PROJECT_DIR$/anti_charity/static/css/anti_charity.css" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/anti_charity.coffee" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/why_anticharity.html" />
-        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css" />
-        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.css" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.html" />
@@ -206,6 +193,16 @@
         <option value="$PROJECT_DIR$/anti_charity/templates/index.html" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.coffee" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_contruction/under_construction.css" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_contruction/under_construction.coffee" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_contruction/under_construction.html" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee" />
+        <option value="$PROJECT_DIR$/anti_charity/static/css/anti_charity.css" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.coffee" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.html" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.css" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css" />
+        <option value="$PROJECT_DIR$/anti_charity/core/views.py" />
       </list>
     </option>
   </component>
@@ -435,6 +432,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="under_construction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anti_charity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anti_charity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anti_charity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="toolbar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -552,6 +579,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anti_charity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anti_charity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anti_charity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1018,7 +1063,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474767526513</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="home page is alive. why_anticharity is pointing to home right now">
+      <created>1474774741012</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1474774741012</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1079,7 +1131,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding react.js and react-starter-kit" />
     <MESSAGE value="going with gulp build" />
     <MESSAGE value="cleaning up" />
     <MESSAGE value="hooked up to giftbit api" />
@@ -1104,7 +1155,8 @@
     <MESSAGE value="getting started on why anticharity. landing page and about page." />
     <MESSAGE value="more stuffs" />
     <MESSAGE value="mockup profile page" />
-    <option name="LAST_COMMIT_MESSAGE" value="mockup profile page" />
+    <MESSAGE value="home page is alive. why_anticharity is pointing to home right now" />
+    <option name="LAST_COMMIT_MESSAGE" value="home page is alive. why_anticharity is pointing to home right now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1120,35 +1172,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulp/tasks/deploy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/css/landing_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/js/anticharity_landing_page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="0" column="189" selection-start-line="0" selection-start-column="188" selection-end-line="0" selection-end-column="189" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/api/giftbit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -1232,6 +1255,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,16 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="51" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
-          <folding>
-            <element signature="e#65#104#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/login_page.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1308,14 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/templates/anticharity_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1354,14 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar/toolbar.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar/toolbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1394,26 +1392,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/css/anti_charity.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/why_anticharity.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="68" column="94" selection-start-line="65" selection-start-column="12" selection-end-line="68" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1474,14 +1456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1510,6 +1484,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar/toolbar.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/campaign.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/templates/anticharity_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/css/anti_charity.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
