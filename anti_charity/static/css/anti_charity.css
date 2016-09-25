@@ -2,17 +2,14 @@
   font-family: 'Khand', sans-serif;
 }
 
-.toolbar {
-	margin-top: 10px;
-}
 
-.toolbar div {
-	cursor: pointer;
-	cursor: hand;
-}
 
 #content-container {
-	background: #f7fafa;
+	background: white;
+}
+
+.container {
+	padding: 30px 130px;
 }
 
 /* Login/Signup Page CSS */
@@ -26,34 +23,7 @@
 
 
 /* Profile Page */
-#general-profile-information {
-	margin-top: 25px;
-	margin-bottom: 25px;
-	border: 1px solid black;
-	font-family: 'Khand', sans-serif;
-}
 
-#edit-profile-btn {
-	font-size: 12px;
-	color: white;
-	background-color: grey;
-	width: 100%;
-}
-
-.profile-inspirational-quote {
-	border: 2px solid #ef5b0d;
-	border-radius: 8px;
-	padding: 5px;
-
-}
-
-.profile-inspirational-quote-body {
-	text-align: left;
-}
-
-.profile-inspirational-quote-author {
-	text-align: right;
-}
 
 
 /* Why Anticharity */

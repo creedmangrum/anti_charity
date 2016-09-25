@@ -1,0 +1,17 @@
+.toolbar {
+    font-size: 1.75rem;
+    margin-top: 1rem;
+}
+
+#toolbar-logo-icon {
+    height: 100px;
+}
+
+.toolbar div {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.toolbar-item {
+    margin-top: 2rem;
+}

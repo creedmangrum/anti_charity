@@ -14,13 +14,13 @@ Container = Ractive.extend({
       BrowseCampaigns: require('./browse_campaigns.coffee')
       Campaign: require('./campaign.coffee')
       Footer: require('./footer.coffee')
-      Home: require('./home.coffee')
+      Home: require('./home/home.coffee')
       LoginPage: require('./login_page.coffee')
       NewCampaign: require('./new_campaign.coffee')
-      Profile: require('./profile.coffee')
+      Profile: require('./profile/profile.coffee')
       SignupPage: require('./signup_page.coffee')
-      Toolbar: require('./toolbar.coffee')
-      WhyAnticharity: require('./why_anticharity.coffee')
+      Toolbar: require('./toolbar/toolbar.coffee')
+      WhyAnticharity: require('./home/home.coffee')
   })
 
 module.exports = Container

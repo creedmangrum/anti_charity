@@ -1,0 +1,36 @@
+<div class="home-about-scrollable container">
+    {{ #home_page_scrollables:i }}
+        {{ #if current_scrollable == i }}
+            <div class="home-about-scrollable-item row-fluid">
+                <div class="col-md-7
+                            home-about-scrollable-item-image-div
+                            home-about-scrollable-item-image-left">
+                    {{ #if gif }}
+                        <iframe src="//giphy.com/embed/uRb2p09vY8lEs" width="480" height="275" frameBorder="0" class="giphy-embed"></iframe>
+                    {{ else }}
+                        <img class="home-about-scrollable-item-image" src="{{ image_url }}" />
+                    {{ /if }}
+                </div>
+                <div class="col-md-5
+                            home-about-scrollable-item-text
+                            home-about-scrollable-item-text-right">
+                    <div class="home-about-scrollable-item-text-paragraph">
+                        {{ paragraph }}
+                    </div>
+                    {{ #if gif }}
+                        <SubmitInterestedEmail />
+                    {{ /if }}
+                </div>
+            </div>
+        {{ /if }}
+    {{ /home_page_scrollables }}
+    <div class="home-scrollable-toggles">
+        {{ #home_page_scrollables:i }}
+            {{ #if current_scrollable == i }}
+                <i class="fa fa-circle home-scrollable-toggle" aria-hidden="true" on-click="show(i)"></i>
+            {{ else }}
+                <i class="fa fa-circle-o home-scrollable-toggle" aria-hidden="true" on-click="show(i)"></i>
+            {{ /if }}
+        {{ /home_page_scrollables }}
+    </div>
+</div>
