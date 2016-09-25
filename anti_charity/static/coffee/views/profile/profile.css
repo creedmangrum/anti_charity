@@ -1,0 +1,96 @@
+#general-profile-information {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 1px solid black;
+	font-family: 'Khand', sans-serif;
+}
+
+.user-name {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#edit-profile-btn {
+	font-size: 12px;
+	color: white;
+	background-color: grey;
+    margin: 1rem 0;
+	width: 100%;
+}
+
+.profile-left-section-group {
+    display: block;
+    overflow: hidden;
+}
+
+#profile-current-goal-summary {
+    background-color: #ff6d3a;
+    border-radius: .5rem;
+    display: block;
+    margin: 2rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.profile-goal-summary-goal-name {
+    font-size: 2.5rem;
+}
+
+
+#profile-past-goal-summary {
+    background-color: #f6f6f6;
+    border-radius: .5rem;
+    display: block;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.profile-previous-goal-success {
+    color: green;
+}
+
+.profile-previous-goal-failure {
+    color: red;
+}
+
+.profile-past-goal-summary-section-title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.profile-inspirational-quote {
+    background-color: #f6f6f6;
+	border: 2px solid #ef5b0d;
+	border-radius: 8px;
+    margin-bottom: 2.5rem;
+	padding: 1.5rem;
+}
+
+.profile-inspirational-quote-body {
+	text-align: left;
+}
+
+.profile-inspirational-quote-author {
+	text-align: right;
+}
+
+.profile-news-items {
+    padding: 2rem;
+}
+
+.profile-news-items-header {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.profile-news-item-row {
+    background-color: #f6f6f6;
+	border: 2px solid #ef5b0d;
+	border-radius: 8px;
+    margin-bottom: 1.5rem;
+	padding: 1.5rem;
+}
+
+
+
