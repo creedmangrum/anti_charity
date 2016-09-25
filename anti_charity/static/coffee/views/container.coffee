@@ -20,7 +20,7 @@ Container = Ractive.extend({
       Profile: require('./profile/profile.coffee')
       SignupPage: require('./signup_page.coffee')
       Toolbar: require('./toolbar/toolbar.coffee')
-      WhyAnticharity: require('./why_anticharity.coffee')
+      WhyAnticharity: require('./home/home.coffee')
   })
 
 module.exports = Container

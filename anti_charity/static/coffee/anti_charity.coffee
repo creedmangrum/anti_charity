@@ -11,10 +11,10 @@ $( ->
   container = new Container(
     el: document.getElementById('app')
     data:
-    	home_page: false
+    	home_page: true
     	login_page: false
     	new_campaign_page: false
-    	profile_page: true
+    	profile_page: false
     	signup_page: false
     	why_anticharity_page: false
     	authenticated: false
