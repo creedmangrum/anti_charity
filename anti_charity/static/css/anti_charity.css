@@ -53,3 +53,12 @@
 #footer-motto {
 	text-align: center;
 }
+
+.footer-image-div {
+	width: 100%;
+	text-align: center;
+}
+
+#footer-image {
+	height: 150px;
+}

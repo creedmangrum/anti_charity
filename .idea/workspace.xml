@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073ee029-b5c7-4176-8d77-1a0f13b2f484" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/core/views.py" afterPath="$PROJECT_DIR$/anti_charity/core/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/footer.html" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html" afterPath="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anti_charity/static/css/anti_charity.css" afterPath="$PROJECT_DIR$/anti_charity/static/css/anti_charity.css" />
     </list>
     <ignored path="anti_charity.iws" />
@@ -33,7 +32,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anti_charity/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -43,31 +42,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="container.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee">
+      <file leaf-file-name="home.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="55" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="55" />
+            <state relative-caret-position="449">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="under_construction.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.coffee">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
+            <state relative-caret-position="585">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="campaign.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/campaign.coffee">
+      <file leaf-file-name="toolbar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar/toolbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="94" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anti_charity.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/css/anti_charity.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="container.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/container.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -96,38 +125,8 @@
       <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anticharity_template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/templates/anticharity_template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anti_charity.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/css/anti_charity.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toolbar.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar/toolbar.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="615">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -152,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/anti_charity/api/giftbit.py" />
         <option value="$PROJECT_DIR$/anti_charity/wsgi.py" />
         <option value="$PROJECT_DIR$/.env" />
@@ -186,23 +184,24 @@
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/profile/profile.html" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/anti_charity.coffee" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/why_anticharity.html" />
-        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.css" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.html" />
-        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html" />
         <option value="$PROJECT_DIR$/anti_charity/templates/index.html" />
-        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/submit_interested_email/submit_interested_email.coffee" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_contruction/under_construction.css" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_contruction/under_construction.coffee" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_contruction/under_construction.html" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/container.coffee" />
-        <option value="$PROJECT_DIR$/anti_charity/static/css/anti_charity.css" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.coffee" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.html" />
         <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.css" />
-        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css" />
         <option value="$PROJECT_DIR$/anti_charity/core/views.py" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/container.html" />
+        <option value="$PROJECT_DIR$/anti_charity/static/coffee/views/footer.html" />
+        <option value="$PROJECT_DIR$/anti_charity/static/css/anti_charity.css" />
       </list>
     </option>
   </component>
@@ -1070,7 +1069,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474774741012</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="switching to the new home page">
+      <created>1474776451096</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1474776451096</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1131,7 +1137,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="going with gulp build" />
     <MESSAGE value="cleaning up" />
     <MESSAGE value="hooked up to giftbit api" />
     <MESSAGE value="adding post giftbit campaign" />
@@ -1156,7 +1161,8 @@
     <MESSAGE value="more stuffs" />
     <MESSAGE value="mockup profile page" />
     <MESSAGE value="home page is alive. why_anticharity is pointing to home right now" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page is alive. why_anticharity is pointing to home right now" />
+    <MESSAGE value="switching to the new home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="switching to the new home page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1172,13 +1178,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/anti_charity/api/giftbit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/migrations/versions/0f7b7125f050_.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1360,14 +1359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar/toolbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar/toolbar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1404,14 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/container.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1456,26 +1439,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1520,14 +1487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/css/anti_charity.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/under_construction/under_construction.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1552,18 +1511,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anti_charity/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/toolbar/toolbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="94" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/container.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/coffee/views/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti_charity/static/css/anti_charity.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -50,14 +50,25 @@ Home = Ractive.extend({
     ]
 
   onrender: () ->
+    @next(true);
 
 
-  next: (initial) ->
+  next: (initial, arrow) ->
     if !initial
       if @get('current_scrollable') is @get('home_page_scrollables').length - 1
         @set('current_scrollable', 0)
       else
         @set('current_scrollable', @get('current_scrollable') + 1)
+    if !arrow
+      setTimeout( () =>
+        @next(false);
+      ,10000)
+
+  previous: () ->
+    if @get('current_scrollable') is 0
+      @set('current_scrollable', @get('home_page_scrollables').length - 1)
+    else
+      @set('current_scrollable', @get('current_scrollable') - 1)
 
 
 

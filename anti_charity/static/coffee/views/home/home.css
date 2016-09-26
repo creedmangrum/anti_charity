@@ -13,7 +13,7 @@
 }
 
 .home-about-scrollable-item-text-right {
-    top: 3rem;
+    top: 2.5rem;
 }
 
 .home-about-scrollable-item-text-paragraph {
@@ -33,4 +33,10 @@
     color: #ef5b0d;
     cursor: pointer;
     margin: 0 1rem;
+}
+
+.home-carousel-arrows {
+    cursor: pointer;
+    position: relative;
+    top: 13rem;
 }
