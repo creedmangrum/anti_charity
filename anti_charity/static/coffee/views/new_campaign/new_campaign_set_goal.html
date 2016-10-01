@@ -1,0 +1,82 @@
+<div class="new-campaign-set-goal-container row-fluid">
+    <div class="new-campaign-set-goal-form-gutter col-md-2"></div>
+    <div class="new-campaign-set-goal-form col-md-8">
+        <div class="new-campaign-set-goal-input-section row-fluid">
+            <div class="new-campaign-set-goal-input-section-label col-md-6">
+                Select a goal related to:
+            </div>
+            <div class="new-campaign-set-goal-input-section-input col-md-6">
+                <select id='anticharity-org-select'>
+                    <option id='0'>Select your Anticharity</option>
+                    {{ #anticharity_orgs }}
+                        <option id='{{ id }}'>{{ name }}</option>
+                    {{ /anticharity_orgs }}
+                </select>
+            </div>
+        </div>
+        <div class="new-campaign-set-goal-input-section row-fluid">
+            <div class="new-campaign-set-goal-input-section-label col-md-6">
+                Select a goal related to:
+            </div>
+            <div class="new-campaign-set-goal-input-section-input col-md-6">
+                <input type="text"/>
+            </div>
+        </div>
+        <div class="new-campaign-set-goal-input-section row-fluid">
+            <div class="new-campaign-set-goal-input-section-label col-md-6">
+                Title Your Goal:
+            </div>
+            <div class="new-campaign-set-goal-input-section-input col-md-6">
+                <input type="text"/>
+            </div>
+        </div>
+        <div class="new-campaign-set-goal-input-section row-fluid">
+            <div class="new-campaign-set-goal-input-section-label col-md-6">
+                Describe your goal:
+            </div>
+            <div class="new-campaign-set-goal-input-section-input col-md-6">
+                <textarea />
+            </div>
+        </div>
+        <div class="new-campaign-set-goal-input-section row-fluid">
+            <div class="new-campaign-set-goal-input-section-label col-md-6">
+                How often would you like notifications?
+            </div>
+            <div class="new-campaign-set-goal-input-section-input col-md-6">
+                <select id='anticharity-org-select'>
+                    <option id='0'>Select your Anticharity</option>
+                    {{ #anticharity_orgs }}
+                        <option id='{{ id }}'>{{ name }}</option>
+                    {{ /anticharity_orgs }}
+                </select>
+            </div>
+        </div>
+        <div class="new-campaign-set-goal-input-section row-fluid">
+            <div class="new-campaign-set-goal-input-section-label col-md-6">
+                Would you like this to be public or private?
+            </div>
+            <div class="new-campaign-set-goal-input-section-input col-md-6">
+                <select id='anticharity-org-select'>
+                    <option id='0'>Select your Anticharity</option>
+                    {{ #anticharity_orgs }}
+                        <option id='{{ id }}'>{{ name }}</option>
+                    {{ /anticharity_orgs }}
+                </select>
+            </div>
+        </div>
+        <div class="new-campaign-set-goal-input-section row-fluid">
+            <div class="new-campaign-set-goal-input-section-label col-md-6">
+                How often would you like to track your goal?
+            </div>
+            <div class="new-campaign-set-goal-input-section-input col-md-6">
+                <select id='anticharity-org-select'>
+                    <option id='0'>Select your Anticharity</option>
+                    {{ #anticharity_orgs }}
+                        <option id='{{ id }}'>{{ name }}</option>
+                    {{ /anticharity_orgs }}
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="new-campaign-set-goal-form-gutter col-md-2"></div>
+</div>

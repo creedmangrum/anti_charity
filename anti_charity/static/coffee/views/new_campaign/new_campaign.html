@@ -1,0 +1,66 @@
+<div class="new-campaign">
+    <div class="new-campaign-wizard-indicator-group">
+        <div class="new-campaign-wizard-indicator
+                    {{ #if campaign_wizard_page === 'set' }}
+                        new-campaign-wizard-indicator-selected
+                    {{ /if }}"
+             on-click="set_new_campaign_wizard_page('set')">
+            Set Your Goal
+        </div>
+        <div class="new-campaign-wizard-indicator
+                    {{ #if campaign_wizard_page === 'choose' }}
+                        new-campaign-wizard-indicator-selected
+                    {{ /if }}"
+             on-click="set_new_campaign_wizard_page('choose')">
+            Choose Your AntiCharity
+        </div>
+        <div class="new-campaign-wizard-indicator
+                    {{ #if campaign_wizard_page === 'add' }}
+                        new-campaign-wizard-indicator-selected
+                    {{ /if }}"
+             on-click="set_new_campaign_wizard_page('add')">
+            Add Friends for Support
+        </div>
+    </div>
+
+    {{ #if campaign_wizard_page === 'set' }}
+        <div class="new-campaign-form-set-goal">
+            {{ >set_goal }}
+        </div>
+    {{ /if }}
+    {{ #if campaign_wizard_page == 'choose' }}
+    <div class="new-campaign-form-choose-anticharity">
+        {{ >choose_anticharity }}
+    </div>
+    {{ /if }}
+    {{ #if campaign_wizard_page == 'add' }}
+        <div class="new-campaign-form-add-friends">
+            {{ >add_friends }}
+        </div>
+    {{ /if }}
+
+    <div class="new-campaign-wizard-indicator-group">
+        {{ #if campaign_wizard_page != 'set' }}
+        <div class="new-campaign-wizard-indicator"
+             on-click="previous_campaign_wizard_page()">
+            Back
+        </div>
+        {{ /if }}
+        {{ #if campaign_wizard_page != 'add' }}
+        <div class="new-campaign-wizard-indicator"
+             on-click="next_campaign_wizard_page()">
+            Next
+        </div>
+        {{ /if }}
+        {{ #if campaign_wizard_page != 'set' && campaign_wizard_page != 'choose' }}
+        <div class="new-campaign-wizard-indicator"
+             on-click="submit_new_campaign()">
+            Submit
+        </div>
+        {{ /if }}
+    </div>
+
+
+
+
+</div>

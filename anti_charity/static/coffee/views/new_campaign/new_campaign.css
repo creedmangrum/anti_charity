@@ -1,0 +1,40 @@
+.new-campaign-set-goal-container {
+    margin-top: 2rem;
+}
+
+.new-campaign-wizard-indicator-group {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.new-campaign-wizard-indicator {
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 1rem;
+    min-width: 20rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.new-campaign-wizard-indicator-selected {
+    background-color: black;
+    border: 1px solid #ef5b0d;
+    color: white;
+}
+
+.new-campaign-set-goal-input-section {
+    display: block;
+    margin-bottom: 3rem;
+    overflow: auto;
+}
+
+
+.new-campaign-set-goal-input-section-label {
+    text-align: right;
+}
+
+.new-campaign-set-goal-input-section-input {
+    text-align: left;
+}
